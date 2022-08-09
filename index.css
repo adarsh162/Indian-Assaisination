@@ -1,0 +1,122 @@
+
+body
+{
+    color: blanchedalmond;
+    background-color:black;
+    background-image: url('https://pbs.twimg.com/media/EW1A4WYU4AA3Oru.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: max-content;
+}
+
+.img
+{
+    height: 200px;
+    width: 200px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+#start, #quit 
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    padding: 20px;
+    position: fixed;
+    top: 70%;
+    left: 48%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+
+}
+
+#start a, #quit a 
+{
+    border: 5px solid rgb(0, 0, 0);
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+
+}
+
+#start a:hover, #quit a:hover 
+{
+    cursor: pointer;
+    padding: 4px;
+    border: 5px solid black;
+    background-color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(10, 10, 10, 0.253);
+}
+
+#instructions 
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    padding: 20px;
+    position: fixed;
+    top:80%;
+    left:48%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#instructions a 
+{
+    border: 5px solid rgb(0, 0, 0);
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+
+}
+
+#instructions a:hover 
+{
+    cursor: pointer;
+    padding: 4px;
+    border: 4px solid black;
+    background-color: rgba(10, 10, 10, 0.253);
+}
+
+
+#quit 
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+    padding: 20px;
+    position: fixed;
+    top:90%;
+    left:48%;
+    margin-top: -100px;
+    margin-left: -100px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+
+#quit a:hover 
+{
+    cursor: pointer;
+    padding: 4px;
+    border: 5px solid black;
+}

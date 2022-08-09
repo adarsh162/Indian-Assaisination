@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main-page</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <style>
+     .hp1 {
+            
+            width: 63%;
+            padding-top: 0px;
+            padding-left: 400px;
+            margin-top: -140px;
+            
+        }
+        
+
+
+
+        .hp2{
+            width:30%;
+            margin-left: 900px;
+            padding-top: -100px;
+            margin-top: -110px;
+            padding-left: 0px;
+        }
+  </style> 
+</head>
+<body>
+     
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Congratulations,Game Won.</h3>
+          
+          <button type="button" class="btn-close-dager btn-danger" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div class="modal-body">
+        
+          <img src="https://i.gifer.com/embedded/download/XJRr.gif" height="240px">
+        </div>
+        <div class="modal-footer">
+          <a href="main2.html"><button type="button" class="btn btn-primary" data-dismiss="modal">Next-Level</button></a>
+          <a href="Home.html"><button type="button" class="btn btn-success" data-dismiss="modal">Back to Home Page</button></a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+        <div class="stage">
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <canvas id="canvas"></canvas>
+    <script type="text/javascript" src="healthbar.js"></script>
+    
+<!--Health bar-->
+    <div class="hp1">
+        <div class="gage">
+          <h2 style="margin-top: 20px; color: white;  background-color: none;">Ken</h2> 
+          <div class="bar">
+
+            
+            <span id="health" class="lvl1" style="width: 100%">100 %</span>
+            
+          </div>
+          
+        </div>
+        
+        <!-- <div class="click">
+          <span class="btn-3d green" onclick="add()">Health</span>
+          <span class="btn-3d red" onclick="remove()">Damage</span>
+        </div>
+    </div> -->
+    <img src="vs.png" height="200px" width="400px">
+      
+    <div class="hp2">
+        <div class="gage">
+          <h2 style="margin-top: 20px; color: white; background-color: none;">Guile</h2> 
+          <div class="bar">
+            <span id="health2" class="lvl2" style="width: 100%">100 %</span>
+          </div>
+        </div>
+    </div>
+        
+        
+        <div class="ken stance"></div>
+        <div class="guile stance2 flip"></div>
+    </div>
+    
+<script src="jquery.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
